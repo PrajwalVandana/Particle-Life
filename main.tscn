@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8x64gr1vxrnu"]
+
+[ext_resource type="Script" path="res://Main.gd" id="1_wxrn6"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_wxrn6")
+
+[node name="Background" type="ColorRect" parent="."]
+show_behind_parent = true
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -80.0
+offset_top = -126.0
+offset_right = 2074.0
+offset_bottom = 1330.0
+color = Color(0, 0, 0, 1)
